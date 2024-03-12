@@ -55,7 +55,7 @@
                 android:text="Skip"
                 android:layout_marginLeft="24dp"
                 android:textColor="@color/text1"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="@android:color/white"
                 android:layout_marginTop="75dp"
                 tools:cornerRadius="5dp"
                 />

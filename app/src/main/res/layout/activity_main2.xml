@@ -58,6 +58,7 @@
                 android:textColor="@color/text1"
                 android:background="@drawable/border"
                 android:layout_marginTop="95dp"
+                android:textAllCaps="false"
                 />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -69,7 +70,8 @@
                 android:onClick="onClick"
                 android:background="@drawable/border2"
                 android:textColor="@color/white"
-                android:layout_marginTop="95dp" />
+                android:layout_marginTop="95dp"
+                android:textAllCaps="false"/>
         </LinearLayout>
 
     </LinearLayout>

@@ -48,27 +48,26 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Skip"
                 android:layout_marginLeft="24dp"
                 android:textColor="@color/text1"
-                android:backgroundTint="@android:color/white"
+                android:background="@drawable/border"
                 android:layout_marginTop="75dp"
-                tools:cornerRadius="5dp"
                 />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="182dp"
-                android:backgroundTint="@color/text1"
                 android:text="Next"
+                android:background="@drawable/border2"
                 android:textColor="@color/white"
-                tools:cornerRadius="5dp"
+
                 android:layout_marginTop="75dp" />
         </LinearLayout>
 

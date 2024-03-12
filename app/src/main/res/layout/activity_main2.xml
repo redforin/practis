@@ -50,14 +50,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="Skip"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/text1"/>
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:backgroundTint="@color/text1"
+                android:text="Next"
+                android:textColor="@color/white"/>
         </LinearLayout>
 
     </LinearLayout>

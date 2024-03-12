@@ -57,6 +57,7 @@
                 android:textColor="@color/text1"
                 android:backgroundTint="@color/white"
                 android:layout_marginTop="75dp"
+                tools:cornerRadius="5dp"
                 />
 
             <Button
@@ -67,6 +68,7 @@
                 android:backgroundTint="@color/text1"
                 android:text="Next"
                 android:textColor="@color/white"
+                tools:cornerRadius="5dp"
                 android:layout_marginTop="75dp" />
         </LinearLayout>
 

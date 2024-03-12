@@ -16,10 +16,10 @@
             android:name=".FourActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity3"
+            android:name=".ThirdActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".SecondActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

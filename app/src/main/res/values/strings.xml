@@ -2,4 +2,6 @@
     <string name="app_name">practis</string>
     <string name="text1">Quick Delivery At Your \nDoorstep</string>
     <string name="text2">Enjoy quick pick-up and delivery to \nyour destination</string>
+    <string name="text3">Flexible Payment</string>
+    <string name="text4">Different modes of payment either \nbefore and after delivery without \nstress</string>
 </resources>

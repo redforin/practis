@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="11dp"
-            android:paddingTop="23dp"
+            android:paddingTop="43dp"
             android:src="@drawable/time_pana_one" />
 
         <TextView
@@ -56,7 +56,7 @@
                 android:layout_marginLeft="24dp"
                 android:textColor="@color/text1"
                 android:background="@drawable/border"
-                android:layout_marginTop="75dp"
+                android:layout_marginTop="95dp"
                 />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -67,8 +67,7 @@
                 android:text="Next"
                 android:background="@drawable/border2"
                 android:textColor="@color/white"
-
-                android:layout_marginTop="75dp" />
+                android:layout_marginTop="95dp" />
         </LinearLayout>
 
     </LinearLayout>

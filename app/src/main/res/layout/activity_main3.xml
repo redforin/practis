@@ -68,6 +68,7 @@
                 android:textColor="@color/white"
                 android:layout_marginTop="95dp"
                 android:textAllCaps="false"/>
+
         </LinearLayout>
     </LinearLayout>
 

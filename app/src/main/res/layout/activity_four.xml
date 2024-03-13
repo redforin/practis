@@ -41,13 +41,13 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button5"
-            android:layout_width="249dp"
-            android:layout_height="33dp"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
             android:background="@drawable/border2"
             android:text="Sing Up"
-            android:textColor="@color/white"
             android:textAllCaps="false"
-            android:layout_marginTop="75dp"/>
+            android:textColor="@color/white" />
 
         <LinearLayout
             android:layout_width="match_parent"

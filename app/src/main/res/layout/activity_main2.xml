@@ -28,7 +28,7 @@
             android:text="@string/text1"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:textColor="@color/text1"
+            android:textColor="@color/blue"
             android:textAlignment="center"
             android:layout_marginTop="36dp"/>
 
@@ -55,7 +55,7 @@
                 android:text="Skip"
                 android:layout_marginLeft="24dp"
                 android:onClick="onClicked"
-                android:textColor="@color/text1"
+                android:textColor="@color/blue"
                 android:background="@drawable/border"
                 android:layout_marginTop="95dp"
                 android:textAllCaps="false"

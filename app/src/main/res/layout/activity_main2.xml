@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="11dp"
             android:paddingTop="43dp"
-            android:src="@drawable/time_pana_one" />
+            android:src="@drawable/time_pana_one"/>
 
         <TextView
             android:id="@+id/textView"

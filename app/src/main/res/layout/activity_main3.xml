@@ -64,6 +64,7 @@
                 android:layout_marginLeft="182dp"
                 android:text="Next"
                 android:background="@drawable/border2"
+                android:onClick="onNext"
                 android:textColor="@color/white"
                 android:layout_marginTop="95dp"
                 android:textAllCaps="false"/>

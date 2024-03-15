@@ -22,4 +22,10 @@
     <string name="text20">Fill in your email and password to continue</string>
     <string name="text21">Remember password</string>
     <string name="text22">Forgot Password?</string>
+    <string name="mail_com">***********@mail.com</string>
+    <string name="pass">**********</string>
+    <string name="log_in">Log in</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="ivanov_ivan">Ivanov Ivan</string>
+    <string name="_7_999_999_99_99">+7(999)999-99-99</string>
 </resources>

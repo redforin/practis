@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:text="@string/text9"
             android:textColor="@color/black"
-            android:layout_marginLeft="-102dp"
+            android:layout_marginStart="-102dp"
             android:textSize="20sp"
             android:textStyle="bold"/>
 
@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text10"
-            android:layout_marginLeft="-46dp"
+            android:layout_marginStart="-46dp"
             android:layout_marginTop="5dp"
             android:textColor="@color/grey1"
             android:textSize="14sp"
@@ -39,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text11"
-        android:layout_marginLeft="-153dp"
+        android:layout_marginStart="-153dp"
         android:layout_marginTop="25dp"
         android:textColor="@color/grey1"
         android:textSize="14sp"
@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:background="@drawable/custom"
-            android:hint="Ivanov Ivan"
+            android:hint="@string/ivanov_ivan"
             android:onClick="onNext"
             android:padding="10dp"
             android:textColor="@color/grey2"
@@ -61,7 +61,7 @@
             android:id="@+id/textView12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="-136dp"
+            android:layout_marginStart="-136dp"
             android:layout_marginTop="25dp"
             android:text="@string/text12"
             android:textColor="@color/grey1"
@@ -75,13 +75,13 @@
             android:padding="10dp"
             android:layout_marginTop="5dp"
             android:textSize="14sp"
-            android:hint="+7(999)999-99-99"/>
+            android:hint="@string/_7_999_999_99_99"/>
 
         <TextView
             android:id="@+id/textView13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="-136dp"
+            android:layout_marginStart="-136dp"
             android:layout_marginTop="25dp"
             android:text="@string/text13"
             android:textColor="@color/grey1"
@@ -95,13 +95,13 @@
             android:padding="10dp"
             android:layout_marginTop="5dp"
             android:textSize="14sp"
-            android:hint="***********@mail.com"/>
+            android:hint="@string/mail_com"/>
 
         <TextView
             android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="-153dp"
+            android:layout_marginStart="-153dp"
             android:layout_marginTop="25dp"
             android:text="@string/text14"
             android:textColor="@color/grey1"
@@ -115,13 +115,13 @@
             android:padding="10dp"
             android:layout_marginTop="5dp"
             android:textSize="14sp"
-            android:hint="**********"/>
+            android:hint="@string/pass"/>
 
         <TextView
             android:id="@+id/textView15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="-124dp"
+            android:layout_marginStart="-124dp"
             android:layout_marginTop="25dp"
             android:text="@string/text15"
             android:textColor="@color/grey1"
@@ -135,7 +135,7 @@
             android:padding="10dp"
             android:layout_marginTop="5dp"
             android:textSize="14sp"
-            android:hint="**********"/>
+            android:hint="@string/pass"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -145,7 +145,7 @@
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="38dp"
-                android:layout_marginLeft="22dp"
+                android:layout_marginStart="22dp"
                 android:layout_marginTop="13dp" />
 
             <TextView
@@ -165,7 +165,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/border3"
             android:onClick="onNexts"
-            android:text="Sing Up"
+            android:text="@string/sing_up"
             android:textAllCaps="false"
             android:textColor="@color/white" />
 
@@ -187,7 +187,7 @@
                 android:id="@+id/textView10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
                 android:text="@string/text8"
                 android:textColor="@color/blue"
                 android:textSize="13sp"

@@ -15,7 +15,7 @@ public class FourActivity extends AppCompatActivity {
     }
 
     public void onNexts(View view){
-        Intent intent = new Intent(FourActivity.this, SingUp.class);
+        Intent intent = new Intent(FourActivity.this, LogIn.class);
         startActivity(intent);
     }
 }

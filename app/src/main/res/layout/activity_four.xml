@@ -72,7 +72,8 @@
                 android:text="@string/text8"
                 android:textColor="@color/blue"
                 android:textSize="13sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:onClick="onNexts"/>
         </LinearLayout>
 
     </LinearLayout>

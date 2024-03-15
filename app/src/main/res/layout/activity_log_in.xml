@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SingUp"
-    android:background="@color/white">
+    tools:context=".LogIn">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -33,49 +32,6 @@
             android:textColor="@color/grey1"
             android:textSize="14sp"
             android:textStyle="bold"/>
-
-        <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text11"
-        android:layout_marginLeft="-153dp"
-        android:layout_marginTop="25dp"
-        android:textColor="@color/grey1"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        />
-
-        <EditText
-            android:layout_width="366dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/custom"
-            android:hint="Ivanov Ivan"
-            android:onClick="onNext"
-            android:padding="10dp"
-            android:textColor="@color/grey2"
-            android:textSize="14sp" />
-
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="-136dp"
-            android:layout_marginTop="25dp"
-            android:text="@string/text12"
-            android:textColor="@color/grey1"
-            android:textSize="14sp"
-            android:textStyle="bold"/>
-
-        <EditText
-            android:layout_width="366dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/custom"
-            android:padding="10dp"
-            android:layout_marginTop="5dp"
-            android:textSize="14sp"
-            android:hint="+7(999)999-99-99"/>
 
         <TextView
             android:id="@+id/textView13"
@@ -117,26 +73,6 @@
             android:textSize="14sp"
             android:hint="**********"/>
 
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="-124dp"
-            android:layout_marginTop="25dp"
-            android:text="@string/text15"
-            android:textColor="@color/grey1"
-            android:textSize="14sp"
-            android:textStyle="bold"/>
-
-        <EditText
-            android:layout_width="366dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/custom"
-            android:padding="10dp"
-            android:layout_marginTop="5dp"
-            android:textSize="14sp"
-            android:hint="**********"/>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="71dp"
@@ -165,13 +101,13 @@
             android:layout_height="wrap_content"
             android:background="@drawable/border3"
             android:onClick="onNexts"
-            android:text="Sing Up"
+            android:text="Log in"
             android:textAllCaps="false"
             android:textColor="@color/white" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="41dp"
+            android:layout_height="56dp"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -191,8 +127,7 @@
                 android:text="@string/text8"
                 android:textColor="@color/blue"
                 android:textSize="13sp"
-                android:textStyle="bold"
-                android:onClick="onNext"/>
+                android:textStyle="bold" />
         </LinearLayout>
 
         <TextView

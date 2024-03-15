@@ -18,4 +18,9 @@ public class ForgotPassword extends AppCompatActivity {
         Intent intent = new Intent(ForgotPassword.this, SingUp.class);
         startActivity(intent);
     }
+
+    public void onNexts(View view){
+        Intent intent = new Intent(ForgotPassword.this, OTP.class);
+        startActivity(intent);
+    }
 }

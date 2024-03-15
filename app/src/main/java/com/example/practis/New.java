@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class OTP extends AppCompatActivity {
+public class New extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_otp);
+        setContentView(R.layout.activity_new);
     }
 
     public void onNexts(View view){
-        Intent intent = new Intent(OTP.this, Home.class);
+        Intent intent = new Intent(New.this, Home.class);
         startActivity(intent);
     }
 }

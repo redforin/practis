@@ -107,7 +107,7 @@
             android:layout_width="365dp"
             android:layout_height="wrap_content"
             android:background="@drawable/border3"
-            android:onClick="onNexts"
+            android:onClick="onNextst"
             android:text="@string/log_in"
             android:textAllCaps="false"
             android:textColor="@color/white"

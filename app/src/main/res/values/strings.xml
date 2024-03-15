@@ -32,4 +32,5 @@
     <string name="sing_otp">Send OTP</string>
     <string name="forgot">Forgot Password</string>
     <string name="enter">Enter your email address</string>
+    <string name="remember">Remember password? Back to</string>
 </resources>

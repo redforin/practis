@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SingUp">
+    tools:context=".SingUp"
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,7 +36,16 @@
             android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="@string/text11"
+            android:layout_marginLeft="-153dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/grey1" />
+
+        <EditText
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom"
+            android:padding="10dp"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

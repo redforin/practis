@@ -33,4 +33,7 @@
     <string name="forgot">Forgot Password</string>
     <string name="enter">Enter your email address</string>
     <string name="remember">Remember password? Back to</string>
+    <string name="verification">OTP Verification</string>
+    <string name="numbers_sent_to_your_email">Enter the 6 digit numbers sent to your email</string>
+    <string name="code">If you didn’t receive code, resend after 1:00</string>
 </resources>

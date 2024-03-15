@@ -73,7 +73,7 @@
                 android:textColor="@color/blue"
                 android:textSize="13sp"
                 android:textStyle="bold"
-                android:onClick="onNexts"/>
+                android:onClick="onNext"/>
         </LinearLayout>
 
     </LinearLayout>

@@ -16,4 +16,5 @@
     <string name="text14">Password</string>
     <string name="text15">Confirm Password</string>
     <string name="text16">By ticking this box, you agree to our Terms and \nconditions and private policy</string>
+    <string name="text17">or sign in using</string>
 </resources>

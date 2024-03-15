@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="75dp"
             android:background="@drawable/border2"
-            android:text="Sing Up"
+            android:text="@string/sing_up"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:onClick="onNexts"/>
@@ -68,7 +68,7 @@
                 android:id="@+id/textView10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
                 android:text="@string/text8"
                 android:textColor="@color/blue"
                 android:textSize="13sp"

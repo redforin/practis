@@ -36,4 +36,5 @@
     <string name="verification">OTP Verification</string>
     <string name="numbers_sent_to_your_email">Enter the 6 digit numbers sent to your email</string>
     <string name="code">If you didn’t receive code, resend after 1:00</string>
+    <string name="set">Set New Password</string>
 </resources>

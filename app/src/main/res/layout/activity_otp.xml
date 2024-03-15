@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="-46dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="10dp"
             android:text="@string/numbers_sent_to_your_email"
             android:textColor="@color/grey1"
             android:textSize="14sp"
@@ -37,7 +37,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="62dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
 
             <EditText
                 android:layout_width="40dp"
@@ -110,10 +111,10 @@
             android:id="@+id/button5"
             android:layout_width="365dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="77dp"
+            android:layout_marginTop="87dp"
             android:background="@drawable/border3"
             android:onClick="onNexts"
-            android:text="@string/log_in"
+            android:text="@string/set"
             android:textAllCaps="false"
             android:textColor="@color/white" />
 

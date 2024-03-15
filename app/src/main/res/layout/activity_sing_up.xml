@@ -76,6 +76,66 @@
             android:layout_marginTop="5dp"
             android:textSize="14sp"
             android:hint="+7(999)999-99-99"/>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-136dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/text13"
+            android:textColor="@color/grey1"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom"
+            android:padding="12dp"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:hint="***********@mail.com"/>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-153dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/text14"
+            android:textColor="@color/grey1"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom"
+            android:padding="12dp"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:hint="**********"/>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-124dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/text15"
+            android:textColor="@color/grey1"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom"
+            android:padding="12dp"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:hint="**********"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

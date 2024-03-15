@@ -12,4 +12,7 @@
     <string name="text10">Complete the sign up process to get started</string>
     <string name="text11">Full name</string>
     <string name="text12">Phone Number</string>
+    <string name="text13">Email Address</string>
+    <string name="text14">Password</string>
+    <string name="text15">Confirm Password</string>
 </resources>

@@ -47,7 +47,8 @@
             android:background="@drawable/border2"
             android:text="Sing Up"
             android:textAllCaps="false"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            android:onClick="onNexts"/>
 
         <LinearLayout
             android:layout_width="match_parent"

@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:text="@string/text9"
             android:textColor="@color/black"
-            android:layout_marginLeft="-100dp"
+            android:layout_marginLeft="-102dp"
             android:textSize="20sp"
             android:textStyle="bold"/>
 
@@ -30,22 +30,52 @@
             android:text="@string/text10"
             android:layout_marginLeft="-46dp"
             android:layout_marginTop="5dp"
-            android:textColor="@color/grey1"/>
+            android:textColor="@color/grey1"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
 
         <TextView
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/text11"
-            android:layout_marginLeft="-153dp"
-            android:layout_marginTop="25dp"
-            android:textColor="@color/grey1" />
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text11"
+        android:layout_marginLeft="-153dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/grey1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        />
 
         <EditText
             android:layout_width="366dp"
             android:layout_height="wrap_content"
             android:background="@drawable/custom"
-            android:padding="10dp"/>
+            android:padding="12dp"
+            android:layout_marginTop="5dp"
+            android:hint="Ivanov Ivan"
+            android:textSize="14sp"
+            android:textColor="@color/grey2"
+            />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-136dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/text12"
+            android:textColor="@color/grey1"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom"
+            android:padding="12dp"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:hint="+7(999)999-99-99"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

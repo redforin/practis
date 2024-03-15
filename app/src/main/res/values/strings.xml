@@ -17,4 +17,9 @@
     <string name="text15">Confirm Password</string>
     <string name="text16">By ticking this box, you agree to our Terms and \nconditions and private policy</string>
     <string name="text17">or sign in using</string>
+    <string name="text18">Sing up</string>
+    <string name="text19">Welcome Back</string>
+    <string name="text20">Fill in your email and password to continue</string>
+    <string name="text21">Remember password</string>
+    <string name="text22">Forgot Password?</string>
 </resources>

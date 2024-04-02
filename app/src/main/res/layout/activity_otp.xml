@@ -39,7 +39,8 @@
             android:layout_width="394dp"
             android:layout_height="62dp"
             android:layout_marginTop="50dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            >
 
             <EditText
                 android:id="@+id/number1"
@@ -128,7 +129,8 @@
             android:onClick="onNexts"
             android:text="@string/set"
             android:textAllCaps="false"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            android:gravity="center"/>
 
     </LinearLayout>
 

@@ -31,9 +31,6 @@
             android:name=".SingUp"
             android:exported="false" />
         <activity
-            android:name=".FiveActivity"
-            android:exported="false" />
-        <activity
             android:name=".FourActivity"
             android:exported="false" />
         <activity

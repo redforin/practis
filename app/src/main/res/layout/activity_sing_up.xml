@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:layout_marginTop="17dp">
+        android:layout_marginTop="27dp">
 
         <TextView
             android:id="@+id/textView7"

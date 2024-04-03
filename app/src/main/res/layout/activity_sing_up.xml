@@ -153,7 +153,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="38dp"
                 android:layout_marginStart="22dp"
-                android:layout_marginTop="13dp" />
+                android:layout_marginTop="13dp"
+                />
 
             <TextView
                 android:id="@+id/textView16"

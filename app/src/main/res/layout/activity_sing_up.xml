@@ -119,7 +119,8 @@
             android:layout_marginTop="5dp"
             android:textSize="14sp"
             android:hint="@string/pass"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black"
+            android:drawableRight="@drawable/eyeslash"/>
 
         <TextView
             android:id="@+id/textView15"
@@ -140,7 +141,8 @@
             android:layout_marginTop="5dp"
             android:textSize="14sp"
             android:hint="@string/pass"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black"
+            android:drawableRight="@drawable/eyeslash"/>
 
         <LinearLayout
             android:layout_width="match_parent"

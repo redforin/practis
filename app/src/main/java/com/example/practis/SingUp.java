@@ -23,4 +23,5 @@ public class SingUp extends AppCompatActivity {
         Intent intent = new Intent(SingUp.this, Home.class);
         startActivity(intent);
     }
+
 }

@@ -12,6 +12,7 @@ import android.widget.EditText;
 public class LogIn extends AppCompatActivity {
 
     private String text = "";
+    private char[] textChar = new char[text.length()];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +34,7 @@ public class LogIn extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable s) {
                 text = email.getText().toString();
+                textChar = text.toCharArray();
             }
 
         });

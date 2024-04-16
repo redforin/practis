@@ -11,33 +11,11 @@ import android.widget.EditText;
 
 public class LogIn extends AppCompatActivity {
 
-    private String text = "";
-    private char[] textChar = new char[text.length()];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log_in);
-
-        EditText email = (EditText)findViewById(R.id.edit);
-        email.addTextChangedListener(new TextWatcher(){
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int before, int count) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                text = email.getText().toString();
-                textChar = text.toCharArray();
-            }
-
-        });
     }
 
     public void onNext(View view){
